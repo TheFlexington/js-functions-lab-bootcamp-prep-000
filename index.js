@@ -4,18 +4,19 @@ function happyHolidays() {
   return "Happy holidays!"
 }
 
-function happyHolidaysTo(name) {
+function happyHolidaysTo(string) {
+  var name = "Felix";
   return `Hapy holidays, ${name}!`
 }
 
-function happyHolidaysTo(holiday, name) {
+function happyHolidaysTo(string, stringer) {
+  var holiday = "Christmas"
+  var name = "Felix"
   return `Happy ${holiday}, ${name}!`
 }
 
-function holidayCountdown(countdown, name) {
+function holidayCountdown(string, stringer) {
+  var days = "244"
+  var holiday = "Christmas"
   return `It's ${days} days until ${holiday}!`
 }
-
-var name = "Felix";
-var holiday = "Christmas";
-var days = "24";
